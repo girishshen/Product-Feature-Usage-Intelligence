@@ -168,8 +168,8 @@ Product-Feature-Usage-Intelligence/
 ### **1️⃣ Clone the repository**
 
 ```bash
-git clone https://github.com/<your-username>/product_feature_intel.git
-cd Product_Feature_Intel
+git clone https://github.com/girishshenoy16/Product-Feature-Usage-Intelligence
+cd Product-Feature-Usage-Intelligence
 ```
 
 ### **2️⃣ Create a virtual environment**
