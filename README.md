@@ -1,121 +1,257 @@
-# 📘 Product Feature Usage Intelligence Dashboard
+# 🌟 Intelligent Product Feature Usage Analytics with AI Insights
 
-### *End-to-End Business Analyst Project (Python • Streamlit • RFM • KMeans • Plotly)*
-
----
-
-# 📌 **1. Project Overview**
-
-This project simulates a **real SaaS product analytics workflow**, where we analyze how users interact with different product features over time.
-
-The system provides:
-
-* Feature usage metrics
-* User engagement analytics
-* RFM-based behavioral scoring
-* KMeans usage segmentation
-* A polished multi-page Streamlit dashboard
-
-This project is designed for **Business Analyst / Product Analyst / Data Analyst** roles and is fully runnable locally.
+### ### AI-Powered Product Analytics • Feature Adoption Intelligence • User Engagement Analytics • Behavioral Segmentation
 
 ---
 
-# 📌 **2. Problem Statement & Business Context**
+<div align="center">
 
-Modern digital products generate large volumes of event-level data (clicks, searches, feature interactions).
-However, companies often struggle with:
+<img src="screenshots/home.png" width="100%"/>
 
-* Understanding which features are actually used
-* Identifying “power users” vs “at-risk” users
-* Measuring adoption and engagement
-* Making data-driven product decisions
+<i>Product Intelligence Dashboard for Feature Adoption Analytics, User Engagement Monitoring & Product Decision Intelligence</i>
 
-This project solves that by simulating:
+<br/>
 
-* Feature-level adoption
-* Usage trends
-* RFM-based engagement scoring
-* Usage-based user segmentation
-* Monitoring active vs inactive users
+![Python](https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge)
+![Framework](https://img.shields.io/badge/Framework-Streamlit-red?style=for-the-badge)
+![Analytics](https://img.shields.io/badge/Analytics-Product_Intelligence-orange?style=for-the-badge)
+![Segmentation](https://img.shields.io/badge/Segmentation-RFM_Analytics-purple?style=for-the-badge)
+![ML](https://img.shields.io/badge/ML-KMeans-green?style=for-the-badge)
+![Testing](https://img.shields.io/badge/Testing-PyTest-blueviolet?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Portfolio_Project-brightgreen?style=for-the-badge)
 
-Product Managers, Growth Teams, and Analysts use dashboards like this to:
+<br/>
 
-* Prioritize the roadmap
-* Improve user retention
-* Identify adoption gaps
-* Personalize engagement or marketing campaigns
+</div>
 
 ---
 
-# 📌 **3. Tech Stack**
+# 🖼️ Project Overview
 
-**Programming & Analytics**
+This project simulates a real SaaS product analytics workflow where user interaction and feature adoption behavior are analyzed to generate actionable product intelligence insights.
 
-* Python 3.10+
-* Pandas, NumPy
-* scikit-learn (KMeans segmentation)
-* Plotly (interactive visuals)
+The system helps analyze:
+- feature adoption trends
+- user engagement patterns
+- behavioral segmentation
+- product usage intelligence
+- retention-oriented user behavior
 
-**App / UI**
+The dashboard combines:
+- feature usage analytics
+- RFM-based behavioral scoring
+- KMeans user segmentation
+- product KPI monitoring
+- interactive product intelligence dashboards
 
-* Streamlit (multi-page dashboard)
-
-**Utilities**
-
-* Joblib
-* Pytest (for model testing)
-
----
-
-# 📌 **4. Data Description**
-
-Synthetic dataset simulates clickstream-like product usage:
-
-### **Raw Data Columns**
-
-| Column         | Description                                 |
-| -------------- | ------------------------------------------- |
-| `user_id`      | Unique user ID                              |
-| `signup_date`  | When the user joined                        |
-| `event_date`   | Date of feature usage                       |
-| `feature_name` | Feature used (Search, Dashboard, API, etc.) |
-| `events_count` | Number of actions for that feature/day      |
-
-### **Processed Data Columns**
-
-| Column            | Description                    |
-| ----------------- | ------------------------------ |
-| `last_event_date` | Last active day                |
-| `active_days`     | Days user engaged with product |
-| `total_events`    | Total feature interactions     |
-| `recency`         | Days since last activity       |
-| `frequency`       | Number of active days          |
-| `monetary`        | Usage intensity score          |
-| `cluster`         | KMeans behavioral segment      |
+Built using:
+- Streamlit
+- Pandas & NumPy
+- Plotly
+- Scikit-learn
+- KMeans Clustering
 
 ---
 
-# 📌 **5. Architecture**
+# 🚀 Key Business Capabilities
 
+- Product feature adoption analysis
+- User engagement monitoring
+- Feature usage intelligence
+- RFM behavioral analytics
+- User segmentation workflows
+- Product KPI monitoring
+- Retention-focused analytics
+- Interactive product dashboards
+
+---
+
+# ✨ Key Features
+
+- End-to-end product analytics workflow
+- Synthetic clickstream data generation
+- Feature adoption intelligence
+- RFM behavioral analysis
+- KMeans user segmentation
+- Interactive multi-page Streamlit dashboard
+- Automated model evaluation
+- Pytest-based testing
+- Modular production-style architecture
+
+---
+
+# 💼 Business Problem
+
+Modern digital products generate massive volumes of event-level user interaction data. However, organizations often struggle to:
+
+- identify which features are actively used
+- understand user engagement behavior
+- improve feature adoption rates
+- monitor active vs inactive users
+- prioritize product roadmap decisions
+- optimize product-led growth strategies
+
+Without product intelligence systems, organizations may face:
+
+- low feature adoption visibility
+- weaker retention understanding
+- inefficient product prioritization
+- reduced user engagement
+- poor behavioral analytics visibility
+
+This project demonstrates how analytics-driven product intelligence can support:
+
+- product growth optimization
+- engagement-focused product strategies
+- feature adoption improvement
+- retention intelligence workflows
+
+---
+
+# 📈 Business Impact
+
+This platform helps organizations analyze:
+
+- feature adoption trends
+- user engagement behavior
+- retention-oriented user activity
+- behavioral usage patterns
+- active vs inactive user groups
+- product usage intelligence
+
+The platform demonstrates how product analytics workflows can improve:
+
+- product decision-making
+- feature prioritization
+- engagement optimization
+- user retention strategies
+- product-led growth workflows
+
+---
+
+# 🧩 Multi-Page Product Intelligence Dashboard
+
+| Module                     | Function                                  |
+|----------------------------|-------------------------------------------|
+| 🏠 Home Page               | Project overview & navigation             |
+| 📊 Overview Dashboard      | Product KPIs & engagement metrics         |
+| 📈 Feature Usage Analytics | Feature adoption & usage trends           |
+| 🧮 RFM Segmentation        | Behavioral user segmentation & clustering |
+
+---
+
+# 📸 Platform Screenshots
+
+## ⭐ Home Dashboard
+
+<div align="center">
+  <img src="screenshots/home.png" width="100%">
+</div>
+
+---
+
+## ⭐ Product Intelligence Overview Dashboard
+
+<div align="center">
+  <img src="screenshots/overview.png" width="100%">
+</div>
+
+---
+
+## ⭐ Feature Adoption & Usage Analytics
+
+<div align="center">
+  <img src="screenshots/feature_usage.png" width="100%">
+</div>
+
+---
+
+## ⭐ RFM Behavioral Segmentation Dashboard
+
+<div align="center">
+  <img src="screenshots/rfm_segments.png" width="100%">
+</div>
+
+---
+
+# 📊 Key Product Intelligence Insights
+
+The analysis revealed several important product usage patterns:
+
+## 🔹 Feature Adoption Trends
+
+- Dashboard emerged as the most actively used feature.
+- API & Integration features showed lower adoption rates.
+
+## 🔹 Engagement Intelligence
+
+Power users demonstrated:
+
+- low recency
+- high frequency
+- strong engagement intensity
+
+At-risk users showed:
+
+- higher inactivity periods
+- declining engagement frequency
+
+## 🔹 Behavioral Segmentation
+
+The KMeans model successfully separated users into:
+
+- **Cluster 0 — Power Users**
+- **Cluster 1 — Regular Users**
+- **Cluster 2 — At-Risk Users**
+- **Cluster 3 — Dormant Users**
+
+These insights support:
+
+- product roadmap planning
+- re-engagement campaigns
+- feature onboarding strategies
+- retention-focused analytics
+
+---
+
+# 🧬 Product Intelligence Workflow
+
+```text
+Synthetic Product Usage Data
+            ↓
+Data Cleaning & Preprocessing
+            ↓
+RFM Feature Engineering
+(Recency • Frequency • Monetary)
+            ↓
+KMeans User Segmentation
+            ↓
+Behavioral Product Intelligence
+            ↓
+Interactive Streamlit Dashboard
+            ↓
+Product & Growth Decision Intelligence
 ```
-Synthetic Feature Usage Data
-          ↓
-Preprocessing (clean, transform, aggregate)
-          ↓
-RFM Feature Builder (recency / frequency / monetary)
-          ↓
-KMeans Segmentation Model (Power, Regular, At-Risk, Dormant)
-          ↓
-Streamlit Multi-Page Dashboard
-          ↓
-Insights for Product & Business Decision-Making
-```
 
 ---
 
-📁 Folder Structure
+# 🧠 Tech Stack
 
-```
+| Category | Technologies |
+|----------|--------------|
+| Language | Python 3.10+ |
+| Data Analysis | Pandas, NumPy |
+| Machine Learning | Scikit-learn, KMeans |
+| Visualization | Plotly |
+| Dashboard/UI | Streamlit |
+| Analytics | RFM Segmentation |
+| Testing | PyTest |
+
+---
+
+# 📁 Project Structure
+
+```text
 Product-Feature-Usage-Intelligence/
 │
 ├── app/
@@ -138,7 +274,15 @@ Product-Feature-Usage-Intelligence/
 │   ├── build_rfm.py
 │   └── train_model.py
 │
+├── screenshots/
+│   ├── home.png
+│   ├── overview.png
+│   ├── feature_usage.png
+│   └── rfm_segments.png
+│
 ├── src/
+│   ├── evaluate_model.py
+│   ├── __init__.py
 │   ├── preprocessing.py
 │   ├── rfm.py
 │   └── viz.py
@@ -146,172 +290,184 @@ Product-Feature-Usage-Intelligence/
 ├── tests/
 │   └── test_predict.py
 │
-├── screenshots/
-│   ├── overview.png
-│   ├── feature_usage.png
-│   └── rfm_segments.png
-│
 ├── .gitignore
-├── requirements.txt
-└── README.md
+├── README.md
+└── requirements.txt
 ```
+
 ---
 
-# 📌 **6. How to Run (Step-by-step)**
+# ⚙️ Installation
 
-### **1️⃣ Clone the repository**
+## 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/<your-username>/product_feature_intel.git
-cd Product_Feature_Intel
+git clone https://github.com/girishshenoy16/Product-Feature-Usage-Intelligence.git
+cd Product-Feature-Usage-Intelligence
 ```
 
-### **2️⃣ Create a virtual environment**
+---
+
+## 2️⃣ Create Virtual Environment
 
 ```bash
 python -m venv venv
+```
+
+### Activate Virtual Environment
+
+#### Windows PowerShell
+
+```powershell
+.\venv\Scripts\Activate.ps1
+```
+
+#### Windows CMD
+
+```cmd
 venv\Scripts\activate
 ```
 
-### **3️⃣ Install dependencies**
+---
+
+## 3️⃣ Install Dependencies
 
 ```bash
 python.exe -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-### **4️⃣ Generate synthetic data**
+---
+
+# ▶️ Running the Project
+
+## 1️⃣ Generate Synthetic Product Usage Data
 
 ```bash
 python scripts/generate_synthetic_data.py
 ```
 
-### **5️⃣ Preprocess / build features**
+---
+
+## 2️⃣ Preprocess & Build Features
 
 ```bash
 python scripts/preprocess_data.py
 python scripts/build_rfm.py
 ```
 
-### **6️⃣ Train KMeans model**
+---
+
+## 3️⃣ Train KMeans Segmentation Model
 
 ```bash
 python scripts/train_model.py
 ```
 
-### **7️⃣ Evaluate KMeans model**
+---
+
+## 4️⃣ Evaluate the Model
 
 ```bash
 python src/evaluate_model.py
 ```
 
-### **8️⃣ Testing the project**
+---
+
+## 5️⃣ Run Tests
 
 ```bash
+pytest
 pytest -v
+pytest -q
 ```
 
-### **9️⃣ Start the dashboard**
+---
+
+## 6️⃣ Launch Streamlit Dashboard
 
 ```bash
 streamlit run app/Home.py
 ```
 
 Your dashboard opens at:
-👉 [http://localhost:8501](http://localhost:8501)
+
+👉 http://localhost:8501
 
 ---
 
-# 📌 **7. Dashboard Walkthrough (with screenshots)**
+# 🧰 Dashboard Walkthrough
 
-### **🏠 Home Page**
+## ✔ Overview Dashboard
 
-Simple project overview and navigation.
+Monitor:
 
----
-
-### **📌 Overview Page**
-
-Shows high-level KPIs:
-
-* Total users
-* Avg events per user
-* Avg active days
-* RFM summary per cluster
-
-
-```
-![Overview](screenshots/overview.png)
-```
+- total users
+- average events per user
+- engagement KPIs
+- RFM cluster summaries
 
 ---
 
-### **📈 Feature Usage Page**
+## ✔ Feature Usage Analytics
 
-Includes:
+Analyze:
 
-* Total usage per feature
-* Interactive filters (date range, feature selection)
-* Feature-wise time-series trends
-
-
-```
-![Feature Usage](screenshots/feature_usage.png)
-```
+- feature adoption trends
+- time-series usage behavior
+- feature-level engagement patterns
 
 ---
 
-### **🧮 RFM Segments Page**
+## ✔ RFM Segmentation Dashboard
 
-* 3D RFM scatter plot (Recency–Frequency–Monetary)
-* Cluster distribution bar chart
-* Insightful cluster interpretation
+Explore:
 
-
-```
-![RFM Segments](screenshots/rfm_segments.png)
-```
+- behavioral user clusters
+- engagement segmentation
+- recency-frequency-monetary insights
 
 ---
 
-# 📌 **8. Key Insights & Results**
+# 📊 Model Evaluation
 
-Some example insights (your numbers may differ):
+The KMeans segmentation model was evaluated using:
 
-### 🔹 Feature Usage
+- Silhouette Score
+- Inertia
+- Cluster-level RFM analysis
 
-* "Dashboard" is the most used feature.
-* API & Integrations have lower adoption (good candidate for UX improvement).
+The evaluation workflow helps validate:
 
-### 🔹 Engagement (RFM)
-
-* Power users show low recency and high frequency/monetary.
-* At-risk users show high recency with declining frequency.
-
-### 🔹 Segments
-
-Model successfully separates users into:
-
-* **Cluster 0 – Power Users**
-* **Cluster 1 – Regular Users**
-* **Cluster 2 – At-Risk Users**
-* **Cluster 3 – Dormant Users**
-
-These are directly usable for:
-
-* Re-engagement campaigns
-* Feature onboarding
-* Product roadmap planning
+- cluster quality
+- user behavior separation
+- segmentation consistency
 
 ---
 
-# 📌 **9. Future Work**
+# 🔮 Future Scope
 
-To expand this into a more advanced product analytics suite:
+- Churn prediction integration
+- Cohort retention heatmaps
+- Real-time usage ingestion pipelines
+- Product funnel analytics
+- Feature correlation intelligence
+- User journey visualization
+- Cloud deployment workflows
+- Product experimentation analytics
 
-* 📉 **Churn prediction model**
-* 🧩 **Cohort retention heatmaps**
-* ⚡ Real-time usage ingestion (Kafka → DB → Dashboard)
-* 📊 Feature correlation matrix (which features drive stickiness?)
-* 🧭 User journey funnel visualization
-* 🚀 Deploy dashboard to Streamlit Cloud / Render / AWS
+---
+
+# 🤝 Contribution
+
+Contributions, suggestions, and improvements are welcome.
+
+If you found this project valuable, consider starring the repository.
+
+---
+
+<div align="center">
+
+### ⚡ Product Intelligence & Feature Adoption Analytics for Product-Led Growth
+
+</div>
